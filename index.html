@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech book club</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-    <div class="main-container">
+    <div class="top-container">
         <div class="top-section">
             <nav class="nav">
                 <img src="./images/logo.svg" class="logo" alt="tech book club logo">
@@ -15,58 +18,60 @@
             <section class="hero">
                 <div class="hero-text">
                     <h1>Join the ultimate tech book club</h1>
-                    <p>Turn your reading time into learning time withfellow tech enthusiasts. Get curated recommendations, join vibrant discussions, and level up your skills one chapter at a time.</p>
-                    <button>Review membership options <img src="./images/icon-arrow-down.svg" alt="arrow down icon"></button>
+                    <p class="hero-para">Turn your reading time into learning time withfellow tech enthusiasts. Get curated recommendations, join vibrant discussions, and level up your skills one chapter at a time.</p>
+                    <button>REVIEW MEMBERSHIP OPTIONS <img src="./images/icon-arrow-down.svg" alt="arrow down icon"></button>
                     <div class="users-joined">
-                        <div class="users-joined-avatar">
-                            <img src="./images/image-avatars.webp" alt="users joined image avatars">
-                        </div>
+                        <img src="./images/image-avatars.webp" alt="users joined image avatars" class="users-joined-avatar">
                         <div class="users-joined-details">
                             <div class="stars">
-                                <img src="./images/icon-star.svg" alt="">
-                                <img src="./images/icon-star.svg" alt="">
-                                <img src="./images/icon-star.svg" alt="">
-                                <img src="./images/icon-star.svg" alt="">
-                                <img src="./images/icon-star.svg" alt="">
+                                <img src="./images/icon-star.svg" class="star" alt="">
+                                <img src="./images/icon-star.svg" class="star" alt="">
+                                <img src="./images/icon-star.svg" class="star" alt="">
+                                <img src="./images/icon-star.svg" class="star" alt="">
+                                <img src="./images/icon-star.svg" class="star" alt="">
                             </div>
-                            <p>  200+ developers joined already</p>
+                            <p class="users-joined-text">200+ developers joined already</p>
                         </div>
                     </div>
                 </div>
-                <div class="hero-img">
-                    <img src="./images/image-hero-desktop.webp" width="250px" alt="">
-                </div>
+                <img src="./images/image-hero-desktop.webp" class="img" alt="">
             </section>
         </div>
+    </div>
+    <div class="feature-container">
         <section class="feature-section">
-            <img src="./images/image-read-together-desktop.webp" width="250px" alt="">
+            <img src="./images/image-read-together-desktop.webp" class="img" alt="">
             <div class="read-together-text">
                 <h2>Read together, grow together</h2>
-                <div class="read-together-perks">
-                    <img src="./images/icon-check.svg" alt="">
-                    <p>Monthly curated tech reads selected by industry experts</p>
-                </div>
-                <div class="read-together-perks">
-                    <img src="./images/icon-check.svg" alt="">
-                    <p>Virtual and in-person meetups for deep-dive discussions</p>
-                </div>
-                <div class="read-together-perks">
-                    <img src="./images/icon-check.svg" alt="">
-                    <p>Early access to new tech book releases</p>
-                </div>
-                <div class="read-together-perks">
-                    <img src="./images/icon-check.svg" alt="">
-                    <p>Author Q&A sessions with tech thought leaders</p>
+                <div class="read-together-perks-container">
+                    <div class="read-together-perks">
+                        <img src="./images/icon-check.svg" alt="">
+                        <p>Monthly curated tech reads selected by industry experts</p>
+                    </div>
+                    <div class="read-together-perks">
+                        <img src="./images/icon-check.svg" alt="">
+                        <p>Virtual and in-person meetups for deep-dive discussions</p>
+                    </div>
+                    <div class="read-together-perks">
+                        <img src="./images/icon-check.svg" alt="">
+                        <p>Early access to new tech book releases</p>
+                    </div>
+                    <div class="read-together-perks">
+                        <img src="./images/icon-check.svg" alt="">
+                        <p>Author Q&A sessions with tech thought leaders</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="average-book">
-            <div>
-                <h2>Not your average book club</h2>
-                <p>Connect with a community that speaks your language - from <span>Python</span> to <span>TypeScript</span> and everything in between. Our discussions blend technical depth with practical applications.</p>
-                <img src="./images/logos-tech.svg" class="logos-tech" alt="">
-            </div>
-            <img src="./images/image-not-average-desktop.webp" width="250px" alt="">
+        <section class="average-book-section">
+            <section class="average-book">
+                <div>
+                    <h2>Not your average book club</h2>
+                    <p>Connect with a community that speaks your language - from <span>Python</span> to <span>TypeScript</span> and everything in between. Our discussions blend technical depth with practical applications.</p>
+                    <img src="./images/logos-tech.svg" class="logos-tech" alt="">
+                </div>
+                <img src="./images/image-not-average-desktop.webp" class="img" alt="">
+            </section>
         </section>
 
     </div>
