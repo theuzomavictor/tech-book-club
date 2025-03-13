@@ -479,7 +479,7 @@ span {
     }
 
     .avr-book-text h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .tech-reading {
@@ -498,7 +498,7 @@ span {
     }
 
     .tech-reading h2, .footer h2 {
-        font-size: 2.3rem;
+        font-size: 2rem;
         width: 50%;
         text-align: center;
         margin: 50px auto;
@@ -514,6 +514,7 @@ span {
     }
 
     .membership-options h2 {
+        font-size: 2rem;
         text-align: center;
     }
 
