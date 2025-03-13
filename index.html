@@ -19,8 +19,8 @@
                 <div class="hero-text">
                     <h1>Join the ultimate tech book club</h1>
                     <p class="hero-para">Turn your reading time into learning time withfellow tech enthusiasts. Get curated recommendations, join vibrant discussions, and level up your skills one chapter at a time.</p>
-                    <button>REVIEW MEMBERSHIP OPTIONS <img src="./images/icon-arrow-down.svg" alt="arrow down icon"></button>
-                    <div class="users-joined">
+                    <button class="hero-btn">REVIEW MEMBERSHIP OPTIONS <img src="./images/icon-arrow-down.svg" alt="arrow down icon"></button>
+                    <div class="users-joined hero">
                         <img src="./images/image-avatars.webp" alt="users joined image avatars" class="users-joined-avatar">
                         <div class="users-joined-details">
                             <div class="stars">
@@ -40,8 +40,8 @@
     </div>
     <div class="feature-container">
         <section class="feature-section">
-            <img src="./images/image-read-together-desktop.webp" class="img" alt="">
-            <div class="read-together-text">
+            <img src="./images/image-read-together-desktop.webp" class="img box-one" alt="">
+            <div class="read-together-text box-two">
                 <h2>Read together, grow together</h2>
                 <div class="read-together-perks-container">
                     <div class="read-together-perks">
@@ -100,48 +100,50 @@
         <section class="membership-option-container">
             <section class="membership-options">
                 <h2>Membership options</h2>
-                <div class="pricing-card">
-                    <h3>Starter</h3>
-                    <p><span class="span-price">$19</span>/month</p>
-                    <hr>
-                    <div class="price-perks">
-                        <img src="./images/icon-check.svg" alt="">
-                        <p>1 book/month</p>
+                <div class="price-card-container">
+                    <div class="pricing-card">
+                        <h3>Starter</h3>
+                        <p><span class="span-price">$19</span>/month</p>
+                        <hr>
+                        <div class="price-perks">
+                            <img src="./images/icon-check.svg" alt="">
+                            <p>1 book/month</p>
+                        </div>
+                        <div class="price-perks">
+                            <img src="./images/icon-check.svg" alt="">
+                            <p>Online forums</p>
+                        </div>
+                        <button class="price-btn">Subscribe now</button>
                     </div>
-                    <div class="price-perks">
-                        <img src="./images/icon-check.svg" alt="">
-                        <p>Online forums</p>
+                    <div class="pricing-card pro">
+                        <h3>Pro</h3>
+                        <p><span class="span-price">$29</span>/month</p>
+                        <hr>
+                        <div class="price-perks">
+                            <img src="./images/icon-check.svg" alt="">
+                            <p>2 book/month</p>
+                        </div>
+                        <div class="price-perks">
+                            <img src="./images/icon-check.svg" alt="">
+                            <p>Virtual meetups</p>
+                        </div>
+                        <button class="price-btn pro-btn">Subscribe now</button>
+                        <img src="./images/pattern-glow.svg" class="glow-img glow-pro" alt="">
                     </div>
-                    <button class="price-btn">Subscribe now</button>
-                </div>
-                <div class="pricing-card pro">
-                    <h3>Pro</h3>
-                    <p><span class="span-price">$29</span>/month</p>
-                    <hr>
-                    <div class="price-perks">
-                        <img src="./images/icon-check.svg" alt="">
-                        <p>2 book/month</p>
+                    <div class="pricing-card">
+                        <h3>Enterprise</h3>
+                        <p><span class="span-price">Custom</span></p>
+                        <hr>
+                        <div class="price-perks">
+                            <img src="./images/icon-check.svg" alt="">
+                            <p>Team access</p>
+                        </div>
+                        <div class="price-perks">
+                            <img src="./images/icon-check.svg" alt="">
+                            <p>Private sessions</p>
+                        </div>
+                        <button class="price-btn">Talk to us</button>
                     </div>
-                    <div class="price-perks">
-                        <img src="./images/icon-check.svg" alt="">
-                        <p>Virtual meetups</p>
-                    </div>
-                    <button class="price-btn pro-btn">Subscribe now</button>
-                    <img src="./images/pattern-glow.svg" class="glow-img glow-pro" alt="">
-                </div>
-                <div class="pricing-card">
-                    <h3>Enterprise</h3>
-                    <p><span class="span-price">Custom</span></p>
-                    <hr>
-                    <div class="price-perks">
-                        <img src="./images/icon-check.svg" alt="">
-                        <p>Team access</p>
-                    </div>
-                    <div class="price-perks">
-                        <img src="./images/icon-check.svg" alt="">
-                        <p>Private sessions</p>
-                    </div>
-                    <button class="price-btn">Talk to us</button>
                 </div>
                 <div class="stars star-quote">
                     <img src="./images/icon-star.svg" class="star" alt="">
@@ -172,11 +174,14 @@
                     </div>
                 </div>
                 <hr>
-                <p class="copyright-para">© 2024 - Tech Book Club</p>
-                <div class="brands-logo">
+                <div class="copyright-footer">
+                    <p class="copyright-para">© 2024 - Tech Book Club</p>
+                    <div class="brands-logo">
                     <img src="./images/logo-bluesky.svg" alt="Bluskey logo">
                     <img src="./images/logo-linkedin.svg" alt="LinkedIn logo">
+                    </div>
                 </div>
+                
             </section>
         </section>
     </div>

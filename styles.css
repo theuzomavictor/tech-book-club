@@ -224,6 +224,10 @@ span {
     margin-top: 15px;
 }
 
+.title-para {
+    margin-bottom: 50px;
+}
+
 .footer-container {
     text-align: center;
     background-color: #0a262c;
@@ -267,4 +271,114 @@ span {
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+/* TABLET SCREEN SIZE */
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .hero-para {
+        font-size: 1.4rem;
+    }
+
+    .hero-btn {
+        width: 60%;
+        font-size: 1rem;
+    }
+
+    .users-joined {
+        justify-content: start;
+    }
+
+    .feature-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-section p {
+        font-size: 1.4rem;
+    }
+
+    .box-one {
+        order: 2;
+    }
+
+    .box-two {
+        order: 1;
+    }
+
+    .average-book-section p {
+        font-size: 1.4rem;
+    }
+
+    .tech-reading h2, .membership-options h2 {
+        margin-bottom: 50px;
+    }
+
+    .tech-reading p {
+        font-size: 1.3rem;
+    }
+
+    .price-card-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        row-gap: 0;
+    }
+
+    .pricing-card {
+        width: 45%;
+    }
+
+    .glow-img {
+        top: 300px;
+        left: 300px;
+    }
+
+    .quote-para {
+        font-size: 1.8rem;
+    }
+
+    .footer h2 {
+        font-size: 2.5rem;
+    }
+
+    .footer button {
+        width: 60%;
+        margin-top: 60px;
+        margin: 50px auto 0px;
+        font-size: 1rem;
+    }
+
+    .users-joined {
+        width: 50%;
+        margin: 30px auto;
+        column-gap: 20px;
+    }
+
+    .users-joined-details {
+        width: 80%;
+        align-items: flex-start;
+    }
+
+    .users-joined-text-footer {
+        text-align: left;
+    }
+
+    .copyright-footer {
+        display: flex;
+        justify-content: space-between;
+    }
 }
