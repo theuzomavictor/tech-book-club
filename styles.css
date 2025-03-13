@@ -414,7 +414,7 @@ span {
     }
 
     .hero-btn {
-        width: 70%;
+        width: 80%;
         font-size: 1.1rem;
     }
 
@@ -448,11 +448,11 @@ span {
     .box-two {
         order: 2;
         width: 100%;
-        padding-right: 8em;        
+        padding-right: 7em;        
     }
 
     .box-two h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin: 0px;
     }
 
