@@ -55,6 +55,11 @@ button {
     margin-bottom: 20px;
 }
 
+button:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
 span {
     font-weight: bold;
 }
