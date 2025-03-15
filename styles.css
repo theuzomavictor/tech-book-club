@@ -38,6 +38,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 button {
     font-family: "Martian Mono", monospace;
     font-size: .9rem;
